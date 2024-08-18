@@ -28,3 +28,15 @@ lowerCase('some whitespace'); // returns 'some whitespace'
 lowerCase('hyphen-text'); // returns 'hyphen text'
 lowerCase('HTTPRequest'); // returns 'http request'
 ```
+
+## Demo
+
+::: sandpack
+
+```ts index.ts
+import { lowerCase } from 'es-toolkit/string';
+
+console.log(lowerCase('LOWERCASE'));
+```
+
+:::
